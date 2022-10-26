@@ -113,4 +113,3 @@ window.onload = () => {
     startTimer();
     carregarJogo();
 }
-
