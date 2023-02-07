@@ -1,6 +1,6 @@
 # Jogo-da-Memoria-One-Piece
 
-Ete é um jogo da memória baseado na série de anime "One Piece". O objetivo do jogo é encontrar todos os pares de personagens da série dentro de um tempo determinado.
+Este é um jogo da memória baseado na série de anime "One Piece". O objetivo do jogo é encontrar todos os pares de personagens da série dentro de um tempo determinado.
 
 ## Instruções
 
