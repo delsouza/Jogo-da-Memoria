@@ -9,10 +9,6 @@ Este projeto é um jogo baseado no anime "One Piece". O objetivo é encontrar to
     Se os personagens não forem iguais, eles serão escondidos novamente após um curto período de tempo.
     O jogo termina quando todos os pares são encontrados.
     
-## Explicação
-    
-   
-    
 ## Fim de jogo
 
 A função "checkFimJogo" é chamada após cada jogada para verificar se todas as cartas foram desativadas, o que indica o fim do jogo. Se sim, o intervalo de      tempo é interrompido e um alerta é exibido para o usuário, informando o nome do jogador e o tempo de jogo.
