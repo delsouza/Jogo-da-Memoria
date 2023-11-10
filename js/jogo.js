@@ -33,7 +33,7 @@ const checkFimJogo = () => {
     }
 }
 
-
+//As cartas são iguais?
 const checkCartas = () => {
     const primeiropersonagem = primeirocard.getAttribute('data-personagem')
     const segundopersonagem = segundocard.getAttribute('data-personagem')
@@ -61,7 +61,7 @@ const revelarcard = ({target}) => {
     if (target.parentNode.className.includes('revelarcard')){
         return;
     }
-
+// Ver a carta que clicou é a primeira
     if (primeirocard === '') {
         target.parentNode.classList.add('revelarcard');  
         primeirocard = target.parentNode;
@@ -73,6 +73,8 @@ const revelarcard = ({target}) => {
     }
     
 }
+
+//Criar carta e clicar para revelar
 const criarCard = (personagem) => {
     const card = createElement('div', 'card');
     const front = createElement('div', 'face front');
@@ -89,6 +91,7 @@ const criarCard = (personagem) => {
     return card;
 }
 
+//Carregar o jogo, dublicar personagens e embaralhar
 const carregarJogo = () => {
     const personagensduplicados = [...personagens, ...personagens];
     
